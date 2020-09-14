@@ -1,31 +1,33 @@
 {
   "name": "NVPullToRefresh",
-  "version": "0.1.0",
-  "summary": "A short description of NVPullToRefresh.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/satish.babariya@gmail.com/NVPullToRefresh",
+  "version": "0.1.1",
+  "summary": "NVActivityIndicatorView + PullToRefresh",
+  "description": "This component implements pure pull-to-refresh logic with NVActivityIndicatorView animations.",
+  "homepage": "https://github.com/satishbabariya/NVPullToRefresh",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "satish.babariya@gmail.com": "satish.babariya@gmail.com"
+    "Satish Babariya": "satish.babariya@gmail.com"
   },
   "source": {
-    "git": "https://github.com/satish.babariya@gmail.com/NVPullToRefresh.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/satishbabariya/NVPullToRefresh.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "NVPullToRefresh/Classes/**/*",
-  "swift_version": "4.0",
+  "source_files": "NVPullToRefresh/Classes/**/*.swift",
+  "swift_versions": "5.0",
+  "frameworks": "UIKit",
   "dependencies": {
     "PullToRefresher": [
-      "~> 3.0.2"
+      "~> 3.1"
     ],
     "NVActivityIndicatorView": [
-      "~> 4.1.1"
+      "~> 4.8.0"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
